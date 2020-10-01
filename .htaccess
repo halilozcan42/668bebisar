@@ -1,0 +1,9 @@
+RewriteEngine on
+
+#RewriteCond %{HTTP_HOST} ^668bebisar.se [NC]
+#RewriteRule ^(.*)$ http://www.668bebisar.se/$1 [L,R=301,NC]
+
+ErrorDocument 404 http://www.668bebisar.se/404.php
+
+#RewriteRule ^hakkimizda$ hakkimizda.php [NC,L]
+
